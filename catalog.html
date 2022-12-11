@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин Lego</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="starter.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalog.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="load_page">
+        <img id="legoHead" src="img/lego.png">
+    </div>
+    <header class="mainheader">
+        <div class="container">
+            <div class="pic-burger-container">
+                <div id="menuToggle" style="left: -21em;">
+                    <input type="checkbox" id="burger-checkbox">
+    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img id="logo-in-mobile" src="img/logo.png">
+            </div>
+            <img id="logo-in-desktop" src="img/logo.png">
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="index.html">О компании</a></li>
+                    <li class="active"><a href="catalog.html">Товары</a></li>
+                    <li><a href="paymentAndDelivery.html">Доставка и оплата</a></li>
+                    <li><a href="authPage.html">Войти</a></li>
+                    <li><img href="cart.html" src="img/cart25.png"> 0</li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <div id="progressLine">
+        <div id="progressBar"></div>
+    </div>
+    <main>
+        <div class="container">
+            <section id="slider-section">
+                <h2>Серии наборов</h2>
+                <img src="img/arrow_right.png" class="slider_arrow_right">
+                <img src="img/arrow_left.png" class="slider_arrow_left">
+                <div class="kit_slides_wrapper">
+                    <div class="slides">
+                        <div class="kit_slide">
+                            <img src="img/series/series1.jpg">
+                            <div class="info">
+                                <h3>THE LEGO MOVIE</h3>
+                                <p>
+                                    Познакомься с наборами из серии THE LEGO® MOVIE 2™, посмотри, как Эммет разворачивает свой новый дом мечты/спасательную ракету, когда Мими Катавасия прибывает на звездолёте.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="kit_slide">
+                            <img src="img/series/series3.jpg">
+                            <div class="info">
+                                <h3>NINJAGO</h3>
+                                <p>
+                                    Удивительный мир, в котором ниндзя сражаются со злом. Вашему ребенку понравится придумывать новые увлекательные приключения любимых персонажей.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="kit_slide">
+                            <img src="img/series/series2.jpg">
+                            <div class="info">
+                                <h3>Star WARS</h3>
+                                <p>
+                                    Поклонники LEGO® могут объединить силы, чтобы воссоздать самые захватывающие эпизоды из своей любимой саги о Звездных войнах.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="kit_slide">
+                            <img src="img/series/series4.jpg">
+                            <div class="info">
+                                <h3>CITY</h3>
+                                <p>
+                                    Конструкторы LEGO® City помогут создать реалистичный мир LEGO для исследований и развития творческих способностей вашего ребенка. Постройте свой шумный город, собрав легендарные автомобили и здания.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="kit_slide">
+                            <img src="img/series/series5.jpg">
+                            <div class="info">
+                                <h3>TECHNIC</h3>
+                                <p>
+                                    Серия LEGO® Technic™ бросает вызов опытным строителям LEGO. Ваш ребенок может создавать продвинутые реалистичные механизмы, такие как коробки передач и системы рулевого управления.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Собери комплект</h2>
+                <div class="goods-wrapper">
+                    <div class="product">
+                        <img src="img/goods/1.png">
+                        <h4>Пожарная машина</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                    <div class="product">
+                        <img src="img/goods/2.jpg">
+                        <h4>Гоночная машина</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                    <div class="product">
+                        <img src="img/goods/3.jpg">
+                        <h4>Красный Попугай</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                    <div class="product">
+                        <img src="img/goods/4.jpg">
+                        <h4>Аэропорт</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                    <div class="product">
+                        <img src="img/goods/5.jpg">
+                        <h4>Вертолет</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                    <div class="product">
+                        <img src="img/goods/6.jpg">
+                        <h4>Дом (красный)</h4>
+                        <button><img src="img/cart16.png"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="buttonToTop">Наверх</footer>
+    <script src="catalog_script.js"></script>
+</body>
+
+</html>

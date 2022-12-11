@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин Lego</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="starter.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="paymentAndDelivery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="load_page">
+        <img id="legoHead" src="img/lego.png">
+    </div>
+    <header class="mainheader">
+        <div class="container">
+            <div class="pic-burger-container">
+                <div id="menuToggle">
+                    <input type="checkbox" id="burger-checkbox">
+    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img id="logo-in-mobile" src="img/logo.png">
+            </div>
+            <img id="logo-in-desktop" src="img/logo.png">
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="index.html">О компании</a></li>
+                    <li><a href="catalog.html">Товары</a></li>
+                    <li class="active"><a>Доставка и оплата</a></li>
+                    <li><a href="authPage.html">Войти</a></li>
+                    <li><img href="cart.html" src="img/cart25.png"> 0</li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <div id="progressLine">
+        <div id="progressBar"></div>
+    </div>
+
+    <main>
+        <div class="terms-container">
+            <div class="delivery-block">
+                <div class="content">
+                    <h2>Доставка</h2>
+                    <p>Доставка осуществляется силами курьерской службы<br> в <b>пределах МКАД</b><br>
+                        Доставка <b>по России</b> <br>осуществляется через Почту <br> России и BoxBerry<br>
+                        Также имеется возможность <b>самовывоза</b> по адресу,<br> указанному на карте ниже.
+                    </p>
+                </div>
+            </div>
+            <div class="delivery-block">
+                <div class="content">
+                    <h2>Возврат или обмен</h2>
+                    <p>Обращаем ваше внимание, что магазин вправе отказать вам в возврате, каждый случай рассматривается в индивидуальном порядке<br>
+                    Вовзрат или обмен может быть осуществлен только в случае заводского брака</p>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af6be02d74278e8bc39b7fe6f661b9490a3beea21ccc06db67b3d84ec1454960a&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        
+    </main>
+
+    <footer id="buttonToTop">Наверх</footer>
+    
+    <script src="payment&delivery_script.js"></script>
+</body>
+
+</html>
